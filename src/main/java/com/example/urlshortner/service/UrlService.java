@@ -1,9 +1,11 @@
-package com.example.demo.service;
+package com.example.urlshortner.service;
 
 
-import com.example.demo.model.Url;
-import com.example.demo.repository.UrlRepository;
 import org.springframework.stereotype.Service;
+
+import com.example.urlshortner.model.Url;
+import com.example.urlshortner.repository.UrlRepository;
+
 import org.apache.commons.validator.routines.UrlValidator;
 
 @Service
